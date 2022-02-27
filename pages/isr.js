@@ -20,6 +20,6 @@ export async function getStaticProps() {
     props: {
       state: data,
     },
-    revalidate: 100, // seconds
+    revalidate: 15, // seconds
   };
 }
